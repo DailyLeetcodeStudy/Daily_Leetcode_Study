@@ -31,3 +31,20 @@
 	<li><code>1 &lt;= str1.length, str2.length &lt;= 1000</code></li>
 	<li><code>str1</code> and <code>str2</code> consist of English uppercase letters.</li>
 </ul>
+
+<p>&nbsp;</p>
+<p><strong class="example">solution : gcd(great common division) 최대공약수/ 유클리드 호제법</strong></p>
+
+<ul>
+	<li>두 문자열을 결합했을 때 순서가 다르면 공통 문자열이 존재하지 않음</li>
+	<li>문자열의 길이로 최대공약수를 구하면 가장 큰 공통 패턴의 길이를 알 수 있음.</li>
+</ul>
+
+<p>&nbsp;</p>
+<p><strong class="example">Big-O</strong></p>
+
+<ul>
+	<li>문자열 비교는 O(n)</li>
+	<li>최대공약수 계산은 O(log(min(m, n)))</li>
+	<li>전체 시간 복잡도는 O(n + log(min(m, n)))</li>
+</ul>
