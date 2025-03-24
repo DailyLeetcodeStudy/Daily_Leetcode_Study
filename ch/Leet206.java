@@ -12,6 +12,6 @@ class Solution {
             current = next;
         }
 
-        return prev;x
+        return prev;
     }
 }
